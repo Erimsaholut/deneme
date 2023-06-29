@@ -7,7 +7,6 @@ def hanoiKuleleri(kaynak,temp,hedef,n):
     hanoiKuleleri(temp, kaynak, hedef, n - 1)
     
 
-
 n = int(input("Number of Disks \n"))
 hanoiKuleleri('a', 'b', 'c', n);
 print("\n\n")
