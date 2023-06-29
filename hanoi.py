@@ -10,7 +10,7 @@ def hanoiKuleleri(kaynak,temp,hedef,n):
 
 n = int(input("Number of Disks \n"))
 hanoiKuleleri('a', 'b', 'c', n);
-print("\n")
+print("\n\n")
 
 
 
